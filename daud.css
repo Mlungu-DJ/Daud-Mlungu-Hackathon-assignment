@@ -1,0 +1,108 @@
+body{
+    background-image: url("../Downloads/Graffe5.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    height:fit-content;
+}
+h1{
+    color: orangered;
+    font-size: 3rem;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: chartreuse underline;
+}
+h3{
+    color:lime;
+    font-size: 2rem;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    margin-left: 7%;
+}
+#skills{
+    color:greenyellow;
+    font-size: 1.3rem;
+    text-align: left;
+    margin-left: 4%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Interested{
+    color: black;
+    font-size: 1.2rem;
+    text-align: left;
+    margin: 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.confid{
+    color: orangered;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+.project{
+    color: lime;
+    font-family: 2rem;
+    text-align: left;
+    margin-left: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+iframe{
+    border: 20% solid violet;
+    border-radius: 5%;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 20%;
+}
+.name{
+    color:blue;
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 4%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+p{
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    margin-left: 2%;
+}
+.own{
+    color: darkorange;
+    font-size: 1.4rem;
+    text-align: left;
+    margin-left: 3%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+#goal{
+    text-align: left;
+    margin-left: 2%;
+    font-size: 1.1rem;
+    color: lime;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#need{
+    position: absolute;
+    white-space: nowrap;
+    animation: moveText 30s linear infinite;
+    font-size: 1.1rem;
+    color: yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@keyframes moveText {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
